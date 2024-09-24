@@ -3,14 +3,7 @@ read emplacement
 
 echo "Quel est le nom du projet?"
 read projet
-# test si le projet existe
-if [ -d $projet ]
-then 
-    echo 'Le dossier existe déja'
 
-# si le projet n'est pas existant 
-
-else
 cd $emplacement
 mkdir $projet
 
@@ -31,5 +24,5 @@ mkdir media
 cd media
 touch profil.png
 
-fi
+
 
